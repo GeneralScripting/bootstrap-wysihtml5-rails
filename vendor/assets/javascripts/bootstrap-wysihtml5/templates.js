@@ -223,14 +223,6 @@ this["wysihtml5"]["tpl"]["lists"] = Handlebars.template({"1":function(depth0,hel
     return "      <span class=\"fa fa-list-ol\"></span>\n";
 },"9":function(depth0,helpers,partials,data) {
     return "      <span class=\"glyphicon glyphicon-th-list\"></span>\n";
-},"11":function(depth0,helpers,partials,data) {
-    return "      <span class=\"fa fa-outdent\"></span>\n";
-},"13":function(depth0,helpers,partials,data) {
-    return "      <span class=\"glyphicon glyphicon-indent-right\"></span>\n";
-},"15":function(depth0,helpers,partials,data) {
-    return "      <span class=\"fa fa-indent\"></span>\n";
-},"17":function(depth0,helpers,partials,data) {
-    return "      <span class=\"glyphicon glyphicon-indent-left\"></span>\n";
 },"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
     var stack1, alias1=this.lambda, alias2=this.escapeExpression;
 
@@ -246,17 +238,5 @@ this["wysihtml5"]["tpl"]["lists"] = Handlebars.template({"1":function(depth0,hel
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.locale : depth0)) != null ? stack1.lists : stack1)) != null ? stack1.ordered : stack1), depth0))
     + "\" tabindex=\"-1\">\n"
     + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.toolbar : stack1)) != null ? stack1.fa : stack1),{"name":"if","hash":{},"fn":this.program(7, data, 0),"inverse":this.program(9, data, 0),"data":data})) != null ? stack1 : "")
-    + "    </a>\n    <a class=\"btn "
-    + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.toolbar : stack1)) != null ? stack1.size : stack1),{"name":"if","hash":{},"fn":this.program(1, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
-    + " btn-default\" data-wysihtml5-command=\"Outdent\" title=\""
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.locale : depth0)) != null ? stack1.lists : stack1)) != null ? stack1.outdent : stack1), depth0))
-    + "\" tabindex=\"-1\">\n"
-    + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.toolbar : stack1)) != null ? stack1.fa : stack1),{"name":"if","hash":{},"fn":this.program(11, data, 0),"inverse":this.program(13, data, 0),"data":data})) != null ? stack1 : "")
-    + "    </a>\n    <a class=\"btn "
-    + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.toolbar : stack1)) != null ? stack1.size : stack1),{"name":"if","hash":{},"fn":this.program(1, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
-    + " btn-default\" data-wysihtml5-command=\"Indent\" title=\""
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.locale : depth0)) != null ? stack1.lists : stack1)) != null ? stack1.indent : stack1), depth0))
-    + "\" tabindex=\"-1\">\n"
-    + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = (depth0 != null ? depth0.options : depth0)) != null ? stack1.toolbar : stack1)) != null ? stack1.fa : stack1),{"name":"if","hash":{},"fn":this.program(15, data, 0),"inverse":this.program(17, data, 0),"data":data})) != null ? stack1 : "")
-    + "    </a>\n  </div>\n</li>\n";
+    + "    </a>\n    </div>\n</li>\n";
 },"useData":true});
